@@ -24,12 +24,12 @@ e.g. `ls | asArray | withSpaceTabs`.
 
 ## Scripts
 
-`asAlias.awk`: Can be used to convert the scripts in this folder into aliases. 
+[asAlias](asAlias.awk): Can be used to convert the scripts in this folder into aliases. 
 Variables: baseDirectory
 
-`asArray.awk`: Prints each record as an array of strings. E.g. transforming 
+[asArray](asArray.awk): Prints each record as an array of strings. E.g. transforming 
 `foo\nbar\nbaz` into `[\n\t"foo",\n\t"bar",\n\t"baz"\n]`
 
-`withSpaceTabs.awk`: Converts tabs to spaces
+[withSpaceTabs](withSpaceTabs.awk): Converts tabs to spaces
 
-`withoutEmptyLines.awk`: Prints each record without empty lines
+[withoutEmptyLines](withoutEmptyLines.awk): Prints each record without empty lines
